@@ -15,6 +15,20 @@
     padding: 0px 15px;
   }
 }
+@media all and (max-width: 799px){
+  .ticket{
+    width: 100%;
+    padding: 0px 15px;
+  }
+}
+@media all and (min-width: 800px){
+  .ticket{
+    width: 80%;
+    padding: 0px 15px;
+    background-color: blue;
+
+  }
+}
 
 body {
   display: flex;
@@ -24,11 +38,15 @@ body {
   font-family: 'Open Sans', sans-serif;
   align-items: center;
 }
+
+}
 ul{
   list-style-type: none;
-
 }
 a {
   text-decoration: none;
   color: var(--color-a)
+}
+header{
+  text-align: center;
 }

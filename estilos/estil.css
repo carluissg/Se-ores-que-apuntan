@@ -7,12 +7,13 @@
 }
 @media all and (min-width: 1200px){
  .cont-main{
+    width: 1140px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    width: 1140px;
+    flex-wrap: wrap;
+    justify-items: center;
     align-items: center;
-    padding: 0px 15px;
+    margin: auto;
   }
 }
 @media all and (max-width: 799px){
@@ -26,22 +27,21 @@
     width: 80%;
     padding: 0px 15px;
     background-color: blue;
+    display: block;
+
 
   }
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   background-color: #b6e4e4;
   font-family: 'Open Sans', sans-serif;
   align-items: center;
 }
 
-}
 ul{
   list-style-type: none;
+
 }
 a {
   text-decoration: none;

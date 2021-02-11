@@ -5,16 +5,10 @@
   margin: 0px;
   padding: 0px;
 }
-@media all and (max_width:1199px){
-  .cont-main{
-    width: 100%;
-    height: 100%;
-  }
-}
+
 @media all and (min_width: 1200px){
    .cont-main{
     width: 1140px;
-    height: auto;
     align-items: center;
   }
 }

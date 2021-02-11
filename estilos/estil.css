@@ -1,3 +1,18 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.cont-main{
+  width: 100vw;
+  height: 100vw;
+  min-width: 1199px;
+}
+
 body {
-  font-family: 'Open Sans', sans-serif;;
+  background-color: #b6e4e4;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+ul{
+  list-style-type: none;
 }

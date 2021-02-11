@@ -6,9 +6,9 @@
   padding: 0px;
 }
 
-@media all and (min_width: 1200px){
-   .cont-main{
-    max-width: 1140px;
+@media (min-width: 1200px){
+  .cont-main{
+    width: 1140px;
     align-items: center;
   }
 }

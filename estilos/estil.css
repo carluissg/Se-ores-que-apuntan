@@ -8,7 +8,7 @@
 
 @media all and (min_width: 1200px){
    .cont-main{
-    width: 1140px;
+    max-width: 1140px;
     align-items: center;
   }
 }

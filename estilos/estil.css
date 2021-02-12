@@ -42,9 +42,7 @@ img{
   transform: scaleX(1);
   transition: 3s;
   width: 180px;
-  float: left;
   border-radius: 100%;
-  padding: 20px 10px 0px 0px;
 }
 
 body {
@@ -55,9 +53,11 @@ body {
 }
 
 ul{
+  display: flex;
+  flex-direction: column;
   list-style-type: none;
   font-size: 28px;
-  padding-top: 20px;
+  padding: 20px 20px;
 }
 a {
   text-decoration: none;
@@ -78,9 +78,21 @@ h1{
 }
 h2{
   font-size: 36px;
-  margin: 15px;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
 }
 header{
   text-align: center;
 
+}
+.famosos{
+ float: left;
+ border-right: dotted #fff;
+ padding: 15px 10px;
+}
+.icono{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
 }

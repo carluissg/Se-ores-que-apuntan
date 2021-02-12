@@ -39,13 +39,14 @@
   }
 }
 img{
+  transform: scaleX(1);
+  transition: 3s;
   width: 180px;
   float: left;
   border-radius: 100%;
   padding: 20px 10px 0px 0px;
-
-
 }
+
 body {
   background-color: #b6e4e4;
   font-family: 'Open Sans', sans-serif;
@@ -67,7 +68,7 @@ a {
   transform: scaleX(-1);
   transition: 3s;
 }
-.a:hover ~ .ticket >img{
+.a:hover ~ .ticket > img{
   transform: scaleX(-1);
   transition: transform 3s;
 }

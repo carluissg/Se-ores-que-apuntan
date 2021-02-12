@@ -14,13 +14,11 @@
     justify-items: center;
     align-items: center;
     margin: auto;
-    padding: 0px 15px;
   }
 }
 @media all and (min-width: 800px){
   .ticket{
     width: 80%;
-    padding: 0px 15px;
     background-color: rgb(87, 135, 197);
     margin: 25px;
     border-color: #fff;
@@ -41,7 +39,7 @@ body {
   background-color: #b6e4e4;
   font-family: 'Open Sans', sans-serif;
   align-items: center;
-  padding: 0px;
+  padding: 0px 15px;
 }
 
 ul{

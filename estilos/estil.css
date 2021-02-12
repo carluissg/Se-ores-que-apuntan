@@ -16,6 +16,17 @@
     margin: auto;
   }
 }
+@media all and (max-width: 799px){
+  .ticket{
+    width: 100%;
+    background-color: rgb(87, 135, 197);
+    margin: 25px;
+    border-color: #fff;
+    border-radius: 65px;
+    border-style: solid;
+    position: relative;
+  }
+}
 @media all and (min-width: 800px){
   .ticket{
     width: 80%;

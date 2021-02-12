@@ -21,9 +21,9 @@
   .ticket{
     width: 80%;
     padding: 0px 15px;
-    background-color: rgb(77, 77, 145);
+    background-color: rgb(87, 135, 197);
     margin: 25px;
-    border-color: cornflowerblue;
+    border-color: #fff;
     border-radius: 65px;
     border-style: solid;
     position: relative;
@@ -41,7 +41,7 @@ body {
   background-color: #b6e4e4;
   font-family: 'Open Sans', sans-serif;
   align-items: center;
-  padding: 0px 15px;
+  padding: 0px;
 }
 
 ul{
